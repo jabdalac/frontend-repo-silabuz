@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>Tablas HTML</h1>
+    <table  border="3" bgcolor="#d2d2d2">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Correo</th>
+                <th>Dirección</th>
+                <th>Teléfono</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Juan</td>
+                <td>Perez</td>
+                <td>pepito@gmail.com</td>
+                <td>Lima</td> 
+                <td>999292292</td> 
+            </tr>
+            <tr>
+                <td>Pepe</td>
+                <td>Gómez</td>
+                <td>pepe@gmail.com</td>
+                <td>Lima</td> 
+                <td>344433233</td> 
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Tablas HTML Personalizada</h1>
+    <table  border="3" bgcolor="#d2d2d2">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Correo</th>
+                <th>Ciudad</th>
+                <th>País</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Juan</td>
+                <td>Perez</td>
+                <td>pepito@gmail.com</td>
+                <td>Montevideo</td> 
+                <td>Uruguay</td> 
+
+            </tr>
+            <tr>
+                <td>Pepe</td>
+                <td>Gómez</td>
+                <td>pepegomez@gmail.com</td>
+                <td>Lima</td> 
+                <td>Perú</td> 
+                <!--td>LATAM</!--td--> 
+            </tr>
+            <tr>
+                <td>José</td>
+                <td>Ramirez</td>
+                <td>joseramirez@gmail.com</td>
+                <td>Paris</td> 
+                <td>Francia</td> 
+                <!--td>Europa</!--td--> 
+                <!--td->Oeste</!--td--> 
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Tablas de alumnos</h1>
+    <table  border="3" bgcolor="#d2d2d2">
+        <thead>
+            <tr>
+                <th>Curso</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Correo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Ingles</td>
+                <td>Pepe</td>
+                <td>Smith</td>
+                <td>latinlover@gmail.com</td> 
+            </tr>
+            <tr>
+                <td>Ingles</td>
+                <td rowspan="2">Pepe</td>
+                <td>Smith</td>
+                <td>latinlover@gmail.com</td> 
+            </tr>
+            <tr>
+                <td>Ingles</td>
+                <td>Pepe</td>
+                <td colspan="2">Smith</td>
+                <td>latinlover@gmail.com</td> 
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
